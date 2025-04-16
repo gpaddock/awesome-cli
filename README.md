@@ -15,16 +15,19 @@ Started Apr-16-25
 
 
 ## Usage
-Raw:
+### Raw:
 ```
 go run main.go {gopherName}
 ```
 
-Taskfile built (added to your /bin):
+### Taskfile built (added to your /bin):
 ```
 task build
-// Verify successful build
+```
+Verify successful build
+```
 ll bin/awesome-cli
-// Run
-$ ./bin/awesome-cli get {gopherName}
+```
+```
+./bin/awesome-cli get {gopherName}
 ```
