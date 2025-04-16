@@ -17,14 +17,14 @@ Started Apr-16-25
 ## Usage
 Raw:
 ```
-$ go run main.go {gopherName}
+go run main.go {gopherName}
 ```
 
 Taskfile built (added to your /bin):
 ```
-$ task build
+task build
 // Verify successful build
-$ ll bin/awesome-cli
+ll bin/awesome-cli
 // Run
 $ ./bin/awesome-cli get {gopherName}
 ```
