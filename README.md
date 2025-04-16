@@ -16,7 +16,9 @@ Started Apr-16-25
 
 ## Usage
 Raw:
-```$ go run main.go {gopherName}```
+```
+$ go run main.go {gopherName}
+```
 
 Taskfile built (added to your /bin):
 ```
